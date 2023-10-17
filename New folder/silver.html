@@ -1,0 +1,25 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STyle>body{ background-color: silver;} 
+        h1{ text-align: center;}
+        h2{text-align: center;}</STyle>
+   
+</head>
+<body>
+    <h1> YOU GOT THE SILVER PRIZE </h1>
+    <h2 id="message"> you scored </h2>
+<img src="silver.png"style="display: block; margin: 0 auto;">>
+<script>
+    // Retrieve the score from the original JavaScript
+    var score = localStorage.getItem("score");
+
+    // Update the message element with the retrieved score
+    var message = document.getElementById("message");
+    message.textContent = "Score: " + score;
+</script>
+</body>
+</html>
