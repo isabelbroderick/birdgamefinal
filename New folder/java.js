@@ -94,7 +94,7 @@ function wednesday() {
     }
 }
 
-// ... (rest of your code)
+
 
 document.body.addEventListener("click", function(event) {
     // Check if the clicked element is not one of the bird divs and the game has not started
